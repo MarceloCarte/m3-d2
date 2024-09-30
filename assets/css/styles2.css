@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+  padding: 2rem;
+}
+
+#prompts {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 1000px;
+}
