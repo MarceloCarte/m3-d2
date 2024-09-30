@@ -10,7 +10,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./dist/  // CHANGE THAT TO WHATEVER YOU WANT
-          destination: ./index.html
+          source: ./index.html/
+          destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
